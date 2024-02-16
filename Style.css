@@ -181,4 +181,20 @@ a{
     left: 800px;
 }
 
-.--
+.--tomate{
+    position: absolute;
+    top: 750px;
+    left: 750px;
+}
+
+.--leaf{
+    position: absolute;
+    top: 650px;
+    left: 1650px;
+}
+
+.--leaf2{
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
