@@ -107,6 +107,9 @@ a{
     color: black;
     font-weight: var(--font-font-weight);
     font-size: var(--font-size-font);
+}
+
+.lista_ul li a{
     margin-right: 40px;
 }
 
@@ -208,5 +211,134 @@ a{
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.--pasta2{
+    position: absolute;
+    top: 680px;
+    left: -140px;
+    width: 300px;
+    height: 300px;
+}
+
+.enjoy_header{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.enjoy_title{
+    margin: 0;
+    font-family: var(--font-family-f);
+    font-size: var(--font-size-title);
+}
+
+.section_cards{
+    background-image: url(tira.png);
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    background-position: 0px 25%;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 300px;
+    height: 600px;
+}
+
+.card img{
+    margin-bottom: 60px;
+    transform: scale(1.4);
+}
+
+.card p:nth-child(2){
+    margin-bottom: 0;
+    font-weight: var(--font-font-weight);
+    font-size: var(--font-size-font);
+}
+
+.card a:nth-child(4){
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffe100;
+}
+
+.--discover{
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+.discover_title{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover_title p:nth-child(1){
+    font-weight: var(--font-font-weight);
+    font-size: var(--font-size-font);
+}
+
+.discover_title p:nth-child(2){
+    font-family: var(--font-family-f);
+    font-size: var(--font-size-title);
+    margin: 0;
+}
+
+.cont_delivery{
+    display: flex;
+    justify-content:center;
+}
+
+.cont_delivery img:nth-child(1){
+    transform: scale(0.9);
+    width: 80%;
+}
+
+.cont_delivery img:nth-child(2){
+    width: 150%;
+}
+
+.cont_delivery img:nth-child(3){
+    transform: scale(0.9);
+    width: 80%;
+}
+
+.puntos{
+    display: flex;
+    justify-content: center;
+}
+
+.puntos div{
+    margin: 5px;
+    background-color: rgb(172, 172, 172);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.puntos div:nth-child(1){
+    background-color: var(--background-yelow);
 }
 
