@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+html{
+    font-family: "Fredoka", sans-serif;
+}
+
+:root{
+    --background-yelow: #ffe100;
+    --font-size-title: 60px;
+    --font-size-title2: 40px;
+    --font-size-title3: 32px;
+    --font-size-font: 24px;
+    --font-font-weight: bold;
+}
+
+.--principal{
+    width: 100%;
+    background-color: var(--background-yelow);
+}
+
+.navbar{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 200px;
+    margin-bottom: -20px;
+    margin-left: 40px;
+    margin-right: -40px;
+}
+
+.logo1{
+    margin-bottom: 60px;
+    width: 272px;
+    height: 180px;
+}
+
+.navbar__content{ 
+    width: 60%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact__navbar{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.caja_contacto{
+    display: flex;
+    
+}
+
+.num{
+    font-size: var(--font-size-font);
+}
+
+.caja_links{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.lista_ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone{
+    margin-top: 10px;
+    width: 50px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: var(--font-font-weight);
+}
