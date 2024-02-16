@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Fredoka:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredericka+the+Great&family=Fredoka:wght@300&display=swap');
 
 html{
-    font-family: "Fredoka", sans-serif;
+    font-family: var(--font-family);
+}
+
+body{
+    padding: 0;
+    margin: 0;
 }
 
 :root{
@@ -10,12 +17,22 @@ html{
     --font-size-title2: 40px;
     --font-size-title3: 32px;
     --font-size-font: 24px;
+    --font-size-title-big: 90px;
     --font-font-weight: bold;
+    --font-family: "Fredoka", sans-serif;
+    --font-family-f: "Fredericka the Great", serif;
+    --font-family-c: "Dancing Script", cursive;
 }
 
 .--principal{
     width: 100%;
     background-color: var(--background-yelow);
+    background-image: url(rectangle.png);
+    background-repeat: no-repeat;
+    background-size: 700px 100%;
+    background-position: 100%;
+    height: 850px;
+    overflow: hidden;
 }
 
 .navbar{
@@ -36,7 +53,7 @@ html{
 }
 
 .navbar__content{ 
-    width: 60%;
+    width: 70%;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -56,7 +73,7 @@ html{
 }
 
 .num{
-    font-size: var(--font-size-font);
+    font-size: var(--font-size-title3);
 }
 
 .caja_links{
@@ -88,4 +105,80 @@ a{
     text-decoration: none;
     color: black;
     font-weight: var(--font-font-weight);
+    font-size: var(--font-size-font);
+    margin-right: 40px;
 }
+
+.text_right{
+    text-align: right;
+}
+
+.pasta{
+    position: absolute;
+    left: 1000px;
+    top: 180px;
+    width: 650px;
+    height: 650px;
+}
+
+.text1{
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+}
+
+.cursive{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family-c);
+    font-size: var(--font-size-title);
+    font-weight: var(--font-font-weight);
+}
+
+.fred{
+    padding: 0;
+    margin: 10px;   
+    font-family: var(--font-family-f);
+    font-size: var(--font-size-title-big);
+}
+
+.lets{
+    font-size: var(--font-size-font);
+    font-weight: var(--font-font-weight);
+}
+
+.suma{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family-f);
+}
+
+.suma p{
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sum{
+    margin-left: 10px;  
+    font-size: var(--font-size-title2);
+}
+
+.raya{
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 40%;
+    height: 1px;
+}
+
+.--macarron{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+
+.--
