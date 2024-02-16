@@ -156,6 +156,7 @@ a{
     justify-content: space-between;
     align-items: center;
     font-family: var(--font-family-f);
+    margin-bottom: 10px;
 }
 
 .suma p{
@@ -197,4 +198,13 @@ a{
     position: absolute;
     top: 250px;
     left: 150px;
+}
+
+.text1_button{
+    margin: 0;
+    border: 1px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
